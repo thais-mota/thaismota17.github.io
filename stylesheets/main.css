@@ -38,9 +38,21 @@ ul li {
     list-style-type: none;
 }
 
-footer {
-    margin: 50px auto 0 auto;
-    font-size: 12px;
+.footer {
+    
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+}
+
+.links a:hover {
+    color:  rgb(103, 124, 131);
 }
 
 h1, h2, h3, h4, h5, h6 {
