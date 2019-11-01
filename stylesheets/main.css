@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(27, 27, 27);
+    color: rgb(211, 211, 211);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sitecontent {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header, div {
+    margin: 50px 0 0 0;
+}
+
+.socialmedias {
+    margin: 10px 0 0 0;
+}
+
+.socialmedias img {
+    height: 30px;
+    width: 30px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+div .links a {
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+}
+
+.footer div {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.footer .links {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links a:hover {
+    color:  rgb(103, 124, 131);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 15px 0;
+    color: rgb(103, 124, 131);
+}
+
+.copyleft {
+    transform: rotate(180deg);
+}
