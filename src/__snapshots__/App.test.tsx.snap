@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders About component 1`] = `
+<div>
+  <p>
+    Test About Page
+  </p>
+</div>
+`;
+
+exports[`renders Footer component 1`] = `
+<footer
+  className="footer"
+>
+  <div>
+    <ul>
+      <a
+        className="links"
+        href="/"
+        onClick={[Function]}
+      >
+        <li>
+          Home
+        </li>
+      </a>
+      <a
+        className="links"
+        href="/about"
+        onClick={[Function]}
+      >
+        <li>
+          About me
+        </li>
+      </a>
+      <a
+        className="links"
+        href="/projects"
+        onClick={[Function]}
+      >
+        <li>
+          Projects
+        </li>
+      </a>
+      <a
+        className="links"
+        href="/quotes"
+        onClick={[Function]}
+      >
+        <li>
+          Quotes
+        </li>
+      </a>
+    </ul>
+  </div>
+  <div>
+    <p>
+      Made with ♥ by Thais Mota
+    </p>
+  </div>
+</footer>
+`;
+
+exports[`renders Homepage component 1`] = `
+<nav>
+  <p>
+    Test Homepage
+  </p>
+  <p>
+    Test Homepage
+  </p>
+  <p>
+    Test Homepage
+  </p>
+  <p>
+    Test Homepage
+  </p>
+</nav>
+`;
+
+exports[`renders Nav component 1`] = `
+<nav>
+  <p>
+    Navigation bar
+  </p>
+</nav>
+`;
+
+exports[`renders Projects component 1`] = `
+<div>
+  <p>
+    Test Projects Page
+  </p>
+</div>
+`;
+
+exports[`renders Quotes component 1`] = `
+<div>
+  <p>
+    Test Quotes Page
+  </p>
+  <p>
+    Test Quotes Page
+  </p>
+</div>
+`;
