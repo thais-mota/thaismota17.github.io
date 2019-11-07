@@ -1,13 +1,13 @@
 // function changeBackground(color) {
 //     document.body.style.background = color;
 //  }
- 
+
 //  window.addEventListener("load",function() { changeBackground('black') });
 
 // $(function() {
 //     var colors = ["#0099cc","#c0c0c0","#587b2e","#990000","#000000","#1C8200","#987baa","#981890","#AA8971","#1987FC","#99081E"];
 
-//     setInterval(function() { 
+//     setInterval(function() {
 //         var bodybgarrayno = Math.floor(Math.random() * colors.length);
 //         var selectedcolor = colors[bodybgarrayno];
 //         $("body").css("background",selectedcolor);
@@ -16,6 +16,7 @@
 
 
 function submit_grade() {
-    var n1 = document.getElementById("n1").value;
-    document.getElementById('answer').innerHTML = "Você precisa de " + n1 + " para obter a média necessária para passar.";
+    var n1 = +document.getElementById("n1").value;
+    var answer = (5-(0.4*n1)/0.6);
+    document.getElementById('answer').innerHTML = "Você precisa de no mínimo " + answer + " para obter a média necessária para passar.";
 }
