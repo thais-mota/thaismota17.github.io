@@ -17,6 +17,6 @@
 
 function submit_grade() {
     var n1 = +document.getElementById("n1").value;
-    var answer = (5-(0.4*n1)/0.6);
+    var answer = ((n1*0.4-5)/0.6)*-1;
     document.getElementById('answer').innerHTML = "Você precisa de no mínimo " + answer + " para obter a média necessária para passar.";
 }
